@@ -1,3 +1,54 @@
+#grayBackground p {
+    /*padding: 12px;*/
+    font-family: "Helvetica Neue Light", "HelveticaNeue-Light", "Helvetica Neue", Calibri, Helvetica, Arial;
+    font-size: 3vmin;
+    line-height: 6vmin;
+}
+
+.btn-danger {
+    font-size: 2.4vh;
+    width: 14vmin;
+    height: 6vmin;
+    margin-right: 5px;
+    margin-left: 5px;
+    font-family: "Helvetica Neue Light", "HelveticaNeue-Light", "Helvetica Neue", Calibri, Helvetica, Arial;
+    bottom: 2px;
+}
+
+.btn-primary {
+    font-size: 2.4vh;
+    width: 14vmin;
+    height: 6vmin;
+    font-family: "Helvetica Neue Light", "HelveticaNeue-Light", "Helvetica Neue", Calibri, Helvetica, Arial;
+    bottom: 2px;
+    margin-right: 20px;
+    margin-top: 100px;
+}
+
+.col-md-3 {
+    display: inline-block;
+    margin-top: 5px;
+    margin-right: 4px;
+    margin-bottom: 4px;
+    width: 46vmin;
+    height: auto;
+    padding: 2px;
+    font-family: "Helvetica Neue Light", "HelveticaNeue-Light", "Helvetica Neue", Calibri, Helvetica, Arial;
+
+}
+/*p .col-md-3 {*/
+    /*font-size: 1vh;*/
+/*}*/
+
+
+
+
+
+
+/*PAGE styling*/
+
+
+
 @font-face {
     font-family: 'ostrich';
     src: url('ostrich-regular.ttf')
@@ -115,21 +166,6 @@ label{
     margin-top: 5px;
     font-size: 4vmax;
     line-height: 4vmax;
-}
-
-#checklist label{
-    font-size: 2vmax;
-    display: inline;
-}
-
-#checklist input.group1{
-    font-size: 2vmax;
-    display: inline;
-    width: 2vmax;
-}
-
-#checklist ul{
-    height: 3vmax;
 }
 
 textarea {
@@ -604,10 +640,7 @@ li {
     padding-left: 3px;
     padding-top: 2px;
     font-size: 7vmax;
-}
 
-#mapContainer h4:hover {
-    color: #4a4a4c;
 }
 
 #mapContainer h5 {
@@ -650,12 +683,6 @@ li {
     text-decoration: none;
 }
 
-#grayBackground p {
-    /*padding: 12px;*/
-    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-    font-size: 4vmin;
-    line-height: 6vmin;
-}
 
 #contact h3{
     font-family: 'ostrichBlack';
@@ -744,10 +771,7 @@ li {
     margin: 0;
     margin-bottom: 2%;
     font-size: 5vmax;
-}
 
-#storeList h1:hover {
-    color: #4a4a4c;
 }
 
 #storeList h2 {
@@ -794,14 +818,6 @@ li {
     text-decoration: none;
 }
 
-#storeList button {
-    height: 4vmax;
-    margin-top: -5%;
-}
-
-#storeList button a {
-    vertical-align: middle;
-}
 
 
 #mapContainer button {
@@ -843,14 +859,6 @@ button a:hover{
 
 }
 
-#storeContainer p{
-    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-    color: #4a4a4c;
-    font-size: 3vmax;
-    /*margin: 5% 0 0 0;*/
-
-}
-
 #storeContainer h2{
     font-family: 'ostrich', "Helvetica Neue Light", "HelveticaNeue-Light", "Helvetica Neue", Calibri, Helvetica, Arial;
     color: #4a4a4c;
@@ -860,7 +868,6 @@ button a:hover{
 
 #storeContainer img{
     width: 100%;
-    margin-top: 5%;
 }
 
 #storeContainer button{
@@ -939,14 +946,6 @@ button a:hover{
 
 }
 
-/*///////Edit Store Page/////////////*/
-#editStoreForm input {
-    font-size: 2vmax;
-}
-
-#editStoreForm textarea {
-    font-size: 2vmax;
-}
 
 /* fix iOS bug not displaying 100vh correctly */
 
@@ -1086,5 +1085,13 @@ button a:hover{
         height:44vmin;
         /*margin: 3vmin;*/
         margin-left: 2vmin;
+    }
+}
+
+@media only screen and (min-device-width : 1231px) and (max-device-width : 2500px) {
+
+    .col-md-3 {
+    width: 48vmin;
+        display: inline-block;
     }
 }
