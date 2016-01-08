@@ -90,7 +90,7 @@ $(document).ready(function() {
                 url: "/deletestores",
                 data: deletedId,
                 success: function (data) {
-                    clearPage();
+                    updateDOM();
                 }
             });
         }
